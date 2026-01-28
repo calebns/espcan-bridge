@@ -8,6 +8,13 @@ A robust 6-port CAN BUS switch/bridge designed for seamless communication betwee
 
 The **ESPCAN-BRIDGE** acts as a central hub for CAN BUS networks. Unlike simple parallel splitters, this device features an onboard **CPLD (Complex Programmable Logic Device)** that actively manages dominant bit arbitration across all 6 ports. This ensures that a dominant state on any port is correctly propagated to all others, maintaining the integrity of the CAN protocol.
 
+## Network Topology
+
+The **ESPCAN-BRIDGE** enhances standard CAN layouts by allowing for non-standard configurations:
+
+* **Star Topology:** Unlike traditional CAN networks that require a linear bus structure, this device enables a **star topology**.
+* **12-Branch Expansion:** By utilizing the 6 available ports as active junctions, it is possible to create a complex network with up to **12 individual branches**, significantly increasing cabling flexibility in large installations.
+
 ## Technical Specifications
 
 * **Ports:** 6-port CAN BUS Switch.
@@ -38,4 +45,4 @@ For full details, please refer to the license links below:
 * [Wersja Polska (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pl)
 
 ---
-*Created by [Your Name/Organization]*
+*Created by Wojciech Macek <wojciech.macek@gmail.com>*
