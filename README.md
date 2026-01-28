@@ -20,7 +20,7 @@ The **ESPCAN-BRIDGE** enhances standard CAN layouts by allowing for non-standard
 * **Ports:** 6-port CAN BUS Switch.
 * **Arbitration:** Hardware-level dominant bit arbitration via CPLD.
 * **Operating Speed:** Fixed at **125 kbit/s**.
-* **Power Supply:** 7V – 15V DC.
+* **Power Supply:** 5V – 24V DC.
 * **Connectors:** Screw terminals for secure industrial wiring.
 * **Termination:** No internal termination resistors. 
     * *Note: 120Ω termination resistors must be added externally to the screw terminals where required by your network topology.*
